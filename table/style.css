@@ -1,0 +1,156 @@
+/* NULL */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+background:transparent;
+}
+/*Do not forget to describe the styles for:focus!*/
+:focus {
+outline:0;
+}
+body {
+line-height:1;
+}
+ol, ul {
+list-style:none;
+}
+/*For tables still need to write 'cellspacing="0"' in code*/
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+caption, th, td {
+text-align:left;
+font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}
+/*End NULL*/
+
+body {
+ font-family:Tahoma, Verdana, Arial, 'Sans Serif';
+ margin:20px;
+}
+
+.simple-little-table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	font-size:14px;
+/*	text-shadow: 1px 1px 0px #fff; */
+	background:#eaebec;
+	margin:20px;
+	border:#999 1px solid;
+	border-collapse:separate;
+
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+
+/*	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1; */
+}
+
+.simple-little-table th {
+	font-size: 18px;
+	font-weight:bold;
+	color: #fff;
+	padding:21px 25px 22px 25px;
+/*	border-top:1px solid #999;
+	border-bottom:1px solid #999;  */
+
+	background: #6C9FC9;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3278B3), to(#4A88BC));
+	background: -moz-linear-gradient(top,  #3278B3,  #4A88BC);
+}
+.simple-little-table th:first-child{
+	text-align: left;
+	padding-left: 20px;
+}
+.simple-little-table tr:first-child th:first-child{
+	-moz-border-radius-topleft:6px;
+	-webkit-border-top-left-radius:6px;
+	border-top-left-radius:6px;
+}
+.simple-little-table tr:first-child th:last-child{
+	-moz-border-radius-topright:6px;
+	-webkit-border-top-right-radius:6px;
+	border-top-right-radius:6px;
+}
+.simple-little-table tr{
+	text-align: center;
+	padding-left:20px;
+}
+.simple-little-table tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+.simple-little-table tr td {
+	padding:18px;
+/*	border-top: 1px solid #999;*/
+	border-bottom:1px solid #999; 
+	border-left: 1px solid #999; 
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+.simple-little-table tr:nth-child(even) td{
+	background: #97cbdc;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d5e7fb), to(#d5e7fb));
+	background: -moz-linear-gradient(top,  #d5e7fb,  #d5e7fb);
+}
+.simple-little-table tr:last-child td{
+	border-bottom:0;
+}
+.simple-little-table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	border-bottom-left-radius:6px;
+}
+.simple-little-table tr:last-child td:last-child{
+	-moz-border-radius-bottomright:6px;
+	-webkit-border-bottom-right-radius:6px;
+	border-bottom-right-radius:6px;
+}
+.simple-little-table tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+
+.simple-little-table a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+.simple-little-table a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+.simple-little-table a:active,
+.simple-little-table a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}

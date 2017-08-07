@@ -1,0 +1,13 @@
+
+			# BEGIN Redirect
+			RewriteEngine on
+			RewriteCond %{HTTP_HOST} .
+			RewriteCond %{HTTP_HOST} ^maxetskaya\.um\.la$ [NC]
+			RewriteRule (.*) http://maxetskaya.com/$1 [R=301,L]
+			
+			RewriteCond %{HTTP_HOST} .
+			RewriteCond %{HTTP_HOST} ^www\.maxetskaya\.um\.la$ [NC]
+			RewriteRule (.*) http://www.maxetskaya.com/$1 [R=301,L]
+			# END Redirect
+			
+			

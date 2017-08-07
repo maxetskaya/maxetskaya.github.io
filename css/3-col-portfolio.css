@@ -1,0 +1,108 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 30px 0 50px;
+}
+
+.jumbotron p {
+	font-size: 15px;
+	text-align: justify;
+}
+
+.jumbotron h1 {
+	font-size: 28px;
+}
+
+.pdf {
+    background: rgba(0, 0, 0, 0) url("/img/pdf_icon.png") no-repeat scroll 0 0;
+    padding-left: 25px;
+}
+
+.word {
+    background: rgba(0, 0, 0, 0) url("/img/word.png") no-repeat scroll 0 0;
+    padding-left: 25px;
+}
+
+.photo {
+	margin-right: 50px;
+	margin-top: 15px;
+	display: block;
+    height: auto;
+	float: left;
+}
+
+@media screen and (max-width: 600px) {
+	.photo {
+		max-width: 120px;
+		margin-right: 20px;
+	}
+}
+
+.navbar-nav > li > a {
+	font-size: 18px;
+}
+
+.logo {
+	height: 28px;
+	width: 28px;
+	margin-right: 5px;
+	margin-top: -5px;
+	background-image: url(/img/logo.png);
+}
+
+.logo:hover {
+	background-image: url(/img/logo_white.png);
+}
+.footer {
+	height:60px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+}
+
+.portfolio-item .img-responsive {
+	border-radius: 20px;
+	position: relative;
+  z-index: 5;
+  box-shadow: 0 10px 20px rgba(0,0,0,.4);
+}
+
+.readmore_eng::after {
+  content: 'Read more >>>';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: rgba(34, 34, 34, 0.8);
+  float: right;
+  margin-right: 25px;
+  margin-top: -55px;
+  padding: 8px;
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+}
+
+.readmore_rus::after {
+  content: 'Подробнее >>>';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: rgba(34, 34, 34, 0.8);
+  float: right;
+  margin-right: 25px;
+  margin-top: -55px;
+  padding: 8px;
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+}
